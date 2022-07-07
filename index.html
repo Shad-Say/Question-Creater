@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question-Creater</title>
+    <script src="./scripts/refrences.js" defer></script>
+    <script src="./scripts/http.js" defer></script>
+    <script src="./scripts/index.js" defer></script>
+    <script src="./scripts/event-listener.js" defer></script>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <main>
+      <header class="header">Question Generator</header>
+      <section class="question-creater-section">
+        <div class="question-container">
+          <input
+            type="text"
+            class="question-box"
+            id="question-box"
+            placeholder="Please enter question here"
+          />
+          <div class="multiple-option-container" id="multiple-option-container"></div>
+          <div class="operations-container">
+            <button type="button" id="add-options">Add Options</button>
+            <button type="button" id="remove-options">Remove Options</button>
+            <button type="button" id="submit-button">Submit</button>
+          </div>
+        </div>
+        <div class="option-type-container">
+          <button type="button" class="question-type-button">Text</button>
+          <button type="button" class="question-type-button">Numeric</button>
+          <button type="button" class="question-type-button">DropDown</button>
+          <button type="button" class="question-type-button">CheckBox</button>
+        </div>
+      </section>
+      <section class="display-section" id="display-section"></section>
+    </main>
+  </body>
+</html>

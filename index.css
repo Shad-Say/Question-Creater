@@ -1,0 +1,62 @@
+body {
+  margin: 0 15%;
+  outline: none;
+  background-color: #ccc;
+}
+
+.header {
+  font-size: 4rem;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+main {
+  background-color: white;
+  height: 100vh;
+}
+
+.question-creater-section {
+  display: flex;
+  border: thin solid grey;
+  padding: 0.25rem;
+}
+
+.question-container {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+}
+
+.question-box {
+  flex: 1;
+  padding: 1rem;
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px 2px #888888;
+  font-size: 1.5rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.multiple-option-container {
+  padding: 0.5rem;
+}
+.operations-container {
+  flex: 1;
+  padding: 1rem;
+}
+
+.option-type-container {
+  flex: 1;
+  border: thin solid #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0.5rem;
+}
+
+.question-type-button {
+  padding: 0.25rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.question-type-button:hover {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
